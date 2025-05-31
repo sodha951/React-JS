@@ -1,0 +1,40 @@
+body {
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #27292c;
+  color: white;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+img {
+  width: 100px;
+}
+
+li {
+  line-height: 50px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list-item {
+  margin-right: 10px;
+  font-size: 1.1rem;
+}
+
+.nav-logo {
+  width: 55px;
+}

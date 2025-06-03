@@ -106,7 +106,7 @@ main > h1 {
 
 /* Travel Journal Guide Project */
 
-/* html, body {
+html, body {
     margin: 0;
 }
 
@@ -160,11 +160,11 @@ article.journal-entry .main-image {
     height: 100%;
     width: 100%;
     object-fit: cover;
-} */
+}
 
 /* Contact Page */
 
-* {
+/* * {
   box-sizing: border-box;
 }
 
@@ -223,4 +223,25 @@ body {
   margin-block: 3px;
   font-size: 12px;
   color: #28283A;
+} */
+
+/* Joke Props Practice */
+
+/* * {
+  box-sizing: border-box;
 }
+
+body {
+  margin: 10px;
+  font-family: 'Inter',sans-serif;
+  background-color: whitesmoke;
+  padding: 50px;
+}
+
+.setup{
+  font-weight: bold;
+} */
+
+
+
+

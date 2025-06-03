@@ -75,3 +75,13 @@
 
   11. What data type is `props` when the component receives it?
   An object
+
+  12. What does the `.map()` array method do?
+  Returns a new array. whatever gets returned from the callback function provided is placed at the same index in the new array.Usually we take the items from the original array and modify them in some way.
+
+  13. What do we usually use `.map()` for in react?
+  Convert an array of raw data into an array of JSX elements that can be displayed on the page
+
+  14. Critical thinking: why is `.map()` better than just creating the components manually by typing them out?
+    1. We often don't have the data ahead of time when we're building the app, so we simply can't manually type them out.
+    2. It takes our code more "self-sustaining" - not requiring additional changes to the code whenever the data changes.

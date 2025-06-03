@@ -39,6 +39,7 @@
       <small>I'm tiny text!</small>
     )
   }
+  ```
 
   7. What is wrong with this code?
   ```
@@ -52,3 +53,25 @@
 
     export default Header;
   ```  
+
+  8. What do props help us accomplish?
+  Make a component more reusable.when we pass props into a component it could be data that actually gets displayed as a part of that component.it could be like metadata that you are passing into the component in a way configures it to act a certain way either it helps us make any component that we create more reusable.so that we can keep our code keep as dry as possible.
+
+  8. How do you pass a prop into a component?
+  <MyAwesomeHeader title={}>
+  <img src={props.img} alt="" />
+
+  9. Can I pass a custom prop (e.g. `blahblahblah={true}`) to a native DOM element? (e.g. <div blahblahblah={true}>) why or why not?
+  No, because the jsx we can use to describe native DOM elements will be turned into REAL DOM elements by React.And real DOM elements only have the properties/attributes specified in the HTML specification.(which doesn't include properties like `blahblahblah`)
+
+  10. How do I receive props in a component?
+  function Navbar(props) {
+    return(
+      <header>
+          <img src={props.img} />
+      </header>
+    )
+  }
+
+  11. What data type is `props` when the component receives it?
+  An object

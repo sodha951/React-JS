@@ -43,7 +43,7 @@ li {
 
 /* React Fun Facts */
 
-* {
+/* * {
   box-sizing: border-box;
 }
 
@@ -102,4 +102,125 @@ main > h1 {
 .facts-list > li::marker {
   color: #61DAFB;
   font-size: 1.5rem;
+} */
+
+/* Travel Journal Guide Project */
+
+/* html, body {
+    margin: 0;
+}
+
+body {
+    font-family: Inter;
+}
+
+.container {
+    margin: 45px 40px;
+}
+
+header {
+    background: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 55px;
+}
+
+header > img {
+    width: 24px;
+    margin-right: 7px;
+}
+
+header > h1 {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+article.journal-entry {
+    display: flex;
+    margin: 100px;
+}
+
+article.journal-entry .marker {
+    width: 7px;
+    margin-right: 4px;
+}
+
+article.journal-entry .main-image-container {
+    width: 125px;
+    height: 168px;
+    overflow: hidden;
+    border-radius: 5px;
+    flex-shrink: 0;
+    margin-right: 19px;
+}
+
+article.journal-entry .main-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} */
+
+/* Contact Page */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  background-color: whitesmoke;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 50px;
+}
+
+.contact-card {
+  flex-basis: 225px;
+  box-shadow: 1px 1px 8px rgba(0,0,0,0.25);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  background-color: white;
+  padding: 20px;
+}
+
+.contact-card > img {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.contact-card > h3 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.info-group {
+  display: flex;
+  align-items: center;
+}
+
+.info-group > img {
+  height: 11px;
+  margin-right: 8px;
+}
+
+.info-group > p {
+  margin-block: 3px;
+  font-size: 12px;
+  color: #28283A;
 }
